@@ -17,7 +17,7 @@ const ThemeProvider = (props) =>{
         value={{...state, updateContext}}>
         {props.children}
 
-        </ThemeProvider, ThemeContext>
+        </ThemeContext.Provider>
     )
 }
 
